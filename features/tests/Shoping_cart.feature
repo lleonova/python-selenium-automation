@@ -3,6 +3,6 @@ Feature: Test Scenarios for Amazon Shopping Cart functionality
 
   Scenario:  Verify that clicking on the cart icon opens an empty Shopping Cart.
     Given Open Amazon page
-    When Amazon Shoppin Cart has 0 items
+    When Amazon Shopping Cart has 0 items
     And Click on Shopping Cart icon
     Then Verify that Amazon Cart is empty
