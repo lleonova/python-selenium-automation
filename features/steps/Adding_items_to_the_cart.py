@@ -20,5 +20,4 @@ def click_add_to_cart_button(context):
 @then('Verify that cart has {quantity}')
 def how_many_items_in_the_cart(context, quantity):
     items_in_cart = context.driver.wait.until(EC.visibility_of_element_located(NUMBER_OF_ITEMS)).text
-    print(items_in_cart)
     assert quantity in items_in_cart, f'Expected {quantity}, but got {items_in_cart}'
