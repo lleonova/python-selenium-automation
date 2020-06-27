@@ -4,6 +4,7 @@
 # $x("//a[@class='a-link-nav-icon']")
 # By.CSS_SELECTOR, "a.a-link-nav-icon"
 # $$("a.a-link-nav-icon")
+# $$(".a-link-nav-icon")
 
 # Heading - "Create Account"
 # $x("//h1[@class='a-spacing-small']")
@@ -40,13 +41,17 @@
 # $x("//a[contains(@href, 'register_notification_condition_of_use')]")
 # By.By.CSS_SELECTOR, "a[href*='register_notification_condition_of_use']"
 # $$("a[href*='register_notification_condition_of_use']")
+# $x("//div[@id='legalTextRow']//a[1]")
 
 # Link "Privacy Notice"
 # $x("//a[contains(@href, 'register_notification_privacy_notice')]")
 # By.CSS_SELECTOR, "a[href*='register_notification_privacy_notice']"
 # $$("a[href*='register_notification_privacy_notice']")
+# $x("//div[@id='legalTextRow']//a[2]")
 
 # link - "Sign-in page"
 # $x("//a[@class='a-link-emphasis']")
 # By.CSS_SELECTOR, "a.a-link-emphasis"
 # $$("a.a-link-emphasis")
+# $$(".a-link-emphasis")
+
