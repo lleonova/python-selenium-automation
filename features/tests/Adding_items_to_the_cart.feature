@@ -6,7 +6,7 @@ Feature: Test Scenarios for Amazon Shopping Cart functionality
     When Input Mask into search field
     And Click on search icon
     Then Product results for Mask are shown
-    And Click on first product in the search
+    And Click on first product in the search result
     And Click Add To Cart Button
     When Amazon Shopping Cart Count has 1 items
     And Click on Shopping Cart icon

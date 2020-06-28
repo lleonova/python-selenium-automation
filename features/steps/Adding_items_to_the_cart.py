@@ -7,7 +7,7 @@ NUMBER_OF_ITEMS = (By.ID, "sc-subtotal-label-activecart")
 FIRST_PRODUCT_IN_THE_SEARCH = (By.CSS_SELECTOR, "div[data-component-type='s-search-result']")
 
 
-@then('Click on first product in the search')
+@then('Click on first product in the search result')
 def select_product(context):
     one_element = context.driver.wait.until(EC.element_to_be_clickable(FIRST_PRODUCT_IN_THE_SEARCH)).click()
 
